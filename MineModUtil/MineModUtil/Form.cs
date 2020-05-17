@@ -91,7 +91,7 @@ namespace MineModUtil
                 comboBox.Text = "";
 
                 try { textBox1.Text = Items[0]; } catch { Output.Warning("No item was found for directory."); }
-                try { textBox2.Text = Items[1]; } catch { Output.Warning("No item was found for texture location."); }
+                try { textBox2.Text = Items[1]; } catch { Output.Warning("No item was found for folder:subfolder."); }
                 try { textBox3.Text = Items[2]; } catch { Output.Warning("No item was found for item name."); }
                 try { comboBox.SelectedItem = Items[3]; } catch { Output.Warning("No item was found for category."); }
 
@@ -119,11 +119,6 @@ namespace MineModUtil
                 Output.Success("Collected data!");
                 Util.CreateJSON(Items[0],Items);
             }
-        }
-
-        private void buttonBrowse2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
