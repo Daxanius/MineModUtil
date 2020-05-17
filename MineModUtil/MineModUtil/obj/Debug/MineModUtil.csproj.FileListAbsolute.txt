@@ -1,0 +1,10 @@
+C:\Users\balde\source\repos\MineModUtil\MineModUtil\bin\Debug\MineModUtil.exe.config
+C:\Users\balde\source\repos\MineModUtil\MineModUtil\bin\Debug\MineModUtil.exe
+C:\Users\balde\source\repos\MineModUtil\MineModUtil\bin\Debug\MineModUtil.pdb
+C:\Users\balde\source\repos\MineModUtil\MineModUtil\obj\Debug\MineModUtil.csprojAssemblyReference.cache
+C:\Users\balde\source\repos\MineModUtil\MineModUtil\obj\Debug\MineModUtil.Properties.Resources.resources
+C:\Users\balde\source\repos\MineModUtil\MineModUtil\obj\Debug\MineModUtil.csproj.GenerateResource.cache
+C:\Users\balde\source\repos\MineModUtil\MineModUtil\obj\Debug\MineModUtil.csproj.CoreCompileInputs.cache
+C:\Users\balde\source\repos\MineModUtil\MineModUtil\obj\Debug\MineModUtil.exe
+C:\Users\balde\source\repos\MineModUtil\MineModUtil\obj\Debug\MineModUtil.pdb
+C:\Users\balde\source\repos\MineModUtil\MineModUtil\obj\Debug\MineModUtil.Form.resources
