@@ -48,7 +48,7 @@ namespace MineModUtil.UtilAPI
                 try
                 {
                     return dialog.FileName;
-                }  catch (Exception error) { Output.FatalError(error, "select file"); }
+                } catch (Exception error) { Output.FatalError(error, "select file"); }
             }
 
             return null;
@@ -152,7 +152,7 @@ namespace MineModUtil.UtilAPI
 
                     return files;
 
-                }  catch (Exception error) { Output.FatalError(error, "get files from " + path); }
+                } catch (Exception error) { Output.FatalError(error, "get files from " + path); }
             } else
             {
                 Output.Error("Could not find " + path);

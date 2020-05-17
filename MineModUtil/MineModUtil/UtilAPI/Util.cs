@@ -31,8 +31,7 @@ namespace MineModUtil.UtilAPI
                     }
 
                     Output.Success("Fetched template " + files[0]);
-                }
-                catch (Exception error) { Output.FatalError(error, "fetch template"); }
+                } catch (Exception error) { Output.FatalError(error, "fetch template"); }
 
                 Console.WriteLine("Preparing file...");
 
@@ -72,8 +71,7 @@ namespace MineModUtil.UtilAPI
                         reader.Close();
                     }
                     Output.Success("Succesfully scanned file!");
-                }
-                catch (Exception error) { Output.FatalError(error, "read file"); }
+                } catch (Exception error) { Output.FatalError(error, "read file"); }
             } else
             {
                 Output.Error("Directory " + path + " does not exist!");
@@ -98,8 +96,7 @@ namespace MineModUtil.UtilAPI
                         }
                     }
                     Output.Success("Succesfully written to file!");
-                }
-                catch (Exception error) { Output.FatalError(error, "write to file"); }
+                } catch (Exception error) { Output.FatalError(error, "write to file"); }
             } else
             {
                 Output.Error("Directory " + path + " does not exist!");
